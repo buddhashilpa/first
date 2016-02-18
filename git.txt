@@ -1,0 +1,63 @@
+Github:
+
+1. Install git on windows by downloading .exe file
+
+2. Open Git CMD
+
+3. Configure your details
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
+
+4. Check your config settings
+	$ git config --list
+
+5. Create your online repository by login into your account.
+
+6. Create Local repository
+	mkdir Myproject
+
+7. Enter into repository
+	cd Myproject
+
+8. Initialize the repository.
+	$ git init
+
+9. Create Readme.txt for testing
+	touch Readme.txt
+
+10. Check status of your project.
+	$ git status
+
+11. add the files
+	$ git add Readme.txt
+
+12. Commit 
+	$ git commit -m "Add readme.txt"
+
+13. Connect with online repository
+	$ git remote add origin https://github.com/username/myproject.git
+
+14. Check remote version
+	$ git remote -v
+
+15. push your files to master
+	$ git push --set-upstream origin master
+
+16. If your initial project is in remote. First you need to take pull request from master.
+	$ git pull origin master
+
+17. Now push to remote by using push.
+	
+
+remote server repo contains more branches
+$ git branch -a
+or 
+$ git branch -r
+
+update your remote list
+$ git remote update origin --prune
+
+Revert pull command
+git reset --hard
+
+git checkout
